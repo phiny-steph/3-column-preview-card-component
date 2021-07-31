@@ -1,0 +1,52 @@
+h1 {
+  color: hsl(0, 0%, 95%);
+  font-family:'Lexend Deca', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 200%;
+
+}
+
+
+
+#container { 
+  display: flex;
+  flex: 1;
+  flex-basis: 300px;
+  justify-content: center;
+   padding: 2rem;
+   height: 600px;
+   align-items: center;
+}
+  
+.sedan {
+  background-color:  hsl(31, 71%, 52%); 
+  border: 0;
+  padding: 5rem;
+  text-align: center;
+  
+  }
+
+  
+.suv {
+  background-color:  hsl(184, 100%, 22%);
+  border: 0;
+  padding: 5rem;
+  text-align: center;
+  
+  }
+
+
+.luxury { 
+   background-color: hsl(179, 100%, 13%);
+   border: 0;
+   padding: 5rem;
+   text-align: center;
+}
